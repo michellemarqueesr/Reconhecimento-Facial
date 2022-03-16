@@ -2,10 +2,10 @@
 import mysql.connector #Comando: pip install mysql-connector
 
 db = mysql.connector.connect(
-    host="localhost",
-    user="root",
-    passwd="Alesi@mi12345",
-    database="cadastro"
+    host="XXX",
+    user="XXX",
+    passwd="XXX",
+    database="XXX"
 )
 
 cursor = db.cursor()
